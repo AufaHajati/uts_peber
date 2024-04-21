@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/primaryColor"
+    android:layout_height="match_parent"
+
+
+    tools:context=".DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:text="NKPTATIF"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img1"/>
+
+        <View
+            android:layout_width="11dp"
+            android:layout_height="15dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="Selamat datang di NKPTATIF. Tempat dimana bapak /ibu
+ melakukan pengisian nilai
+ KP/TA mahasiswa"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="219dp"
+        android:text="Aplikasi ini ditujuksn untuk menginputksn nilai kerja praktek dan tugas akhir. oleh dosen-dosen di lingkungan universitas islam negeri sultan syarif kasim riau, khususnya jurusan teknik informatika.pembuatan apkikasi ini dimulai dari ide dimana dosen memiliki keluhan di dalam
+penginputan penilaian baik secara manual, maupun berupa pengisisan form online."
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>
